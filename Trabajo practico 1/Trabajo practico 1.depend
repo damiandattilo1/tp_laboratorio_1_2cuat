@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1599504453 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajo practico 1\main.c
+1599510957 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajo practico 1\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -7,7 +7,7 @@
 
 1599504349 c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajo practico 1\funciones.h
 
-1599504630 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajo practico 1\funciones.c
+1599522036 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajo practico 1\funciones.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"

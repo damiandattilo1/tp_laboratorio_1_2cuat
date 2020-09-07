@@ -6,18 +6,65 @@ int menu(int flagA, int flagB, float numA, float numB)
 {
     int opcion;
     printf("*********MENU**********");
-    printf("\n1. Ingrese primer operando ");
+    printf("\n1. Ingresar 1er operando ");
     if(flagA==1)
         printf("(A = %.2f)", numA);
     else
         printf("(A = x)");
-    printf("\n2. Ingrese segundo operando ");
+    printf("\n2. Ingresar 2do operando ");
     if(flagB==1)
         printf("(B = %.2f)", numB);
     else
         printf("(B = y)");
-    printf("\n3. Calcular");
-    printf("\n4. Mostrar resultados");
+    printf("\n\n3. Calcular todas las operaciones");
+
+    printf("\n    a) Calcular la suma ");
+    if(flagA ==1)
+        printf("(%.2f ", numA);
+    else
+        printf("(A ");
+    if(flagB == 1)
+        printf("+ %.2f)", numB);
+    else
+        printf("+ B)");
+
+    printf("\n    b) Calcular la resta ");
+    if(flagA ==1)
+        printf("(%.2f ", numA);
+    else
+        printf("(A ");
+    if(flagB == 1)
+        printf("- %.2f)", numB);
+    else
+        printf("- B)");
+
+    printf("\n    c) Calcular la division ");
+        if(flagA ==1)
+        printf("(%.2f ", numA);
+    else
+        printf("(A ");
+    if(flagB == 1)
+        printf("/ %.2f)", numB);
+    else
+        printf("/ B)");
+
+    printf("\n    d) Calcular la multiplicacion ");
+        if(flagA ==1)
+        printf("(%.2f ", numA);
+    else
+        printf("(A ");
+    if(flagB == 1)
+        printf("* %.2f)", numB);
+    else
+        printf("* B)");
+
+    printf("\n    e) Calcular el factorial ");
+    if(flagA ==1)
+        printf("(%d!)", (int)numA);
+    else
+        printf("(A!)");
+
+    printf("\n\n4. Informar resultados");
     printf("\n5. Salir\n");
 
     fflush(stdin);
