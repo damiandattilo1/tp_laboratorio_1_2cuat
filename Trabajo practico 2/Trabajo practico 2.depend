@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1601597416 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajos practicos 2do cuatrimestre\trabajo practico 2 nuevo\trabajo practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"arrayEmployees.h"
+
+1601596649 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajos practicos 2do cuatrimestre\trabajo practico 2 nuevo\trabajo practico 2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"arrayEmployees.h"
+
+1601597296 c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\trabajos practicos 2do cuatrimestre\trabajo practico 2 nuevo\trabajo practico 2\arrayemployees.h
+
