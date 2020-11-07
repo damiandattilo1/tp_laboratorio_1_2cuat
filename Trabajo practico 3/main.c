@@ -89,7 +89,14 @@ int main()
                 //controller_sortEmployee(listaEmpleados);
                 break;
             case 8:
-                //controller_saveAsText("data.csv" , listaEmpleados);
+                if(!controller_saveAsText("data.csv" , listaEmpleados))
+                {
+                    printf("\nERROR al guardar los datos\n\n");
+                }
+                else
+                {
+                    printf("\nSe guardaron los datos con exito\n\n");
+                }
                 break;
             case 9:
                 //controller_saveAsBinary("dataB.bin" , listaEmpleados);

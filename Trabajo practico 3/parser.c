@@ -13,31 +13,6 @@
  * \return int
  *
  */
-/*int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
-{
-
-    char* id[20];
-    char* nombre[128];
-    char* horasTrabajadas[20];
-    char* sueldo[20];
-    char entrada[4][100];
-    int total=0;
-    Employee* auxEmployee;
-    fscanf(pFile,"%*[^\n]\n");
-    while(!feof(pFile))
-    {
-        total=fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",entrada[0], entrada[1], entrada[2], entrada[3]);
-        if(total==4)
-        {
-            auxEmployee=employee_newParametros(entrada[0], entrada[1], entrada[2], entrada[3]);
-            ll_add(pArrayListEmployee, auxEmployee);
-        }
-    }
-    printf("\nSe leyeron %d entradas\n\n", total);
-
-
-    return 1;
-}*/
 
 int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
 {

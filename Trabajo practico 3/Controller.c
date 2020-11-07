@@ -333,7 +333,28 @@ int controller_sortEmployee(LinkedList* pArrayListEmployee)
  */
 int controller_saveAsText(char* path , LinkedList* pArrayListEmployee)
 {
-    return 1;
+    FILE* pFile;
+    int todoOk=0;
+    Employee* auxEmployee;
+
+    if(path!=NULL && pArrayListEmployee!=NULL)
+    {
+        pFile=fopen(path, "w");
+        if(pFile!=NULL)
+        {
+            for(int i=0;i<ll_len(pArrayListEmployee); i++)
+            {
+                auxEmployee=(Employee*)ll_get(pArrayListEmployee, i);
+                if(auxEmployee!=NULL)
+                {
+                    fprintf(pFile, "%d,%s,%d,%.2f\n", auxEmployee->id, auxEmployee->nombre,auxEmployee->horasTrabajadas, auxEmployee->sueldo );
+                    todoOk=1;
+                }
+            }
+            fclose(pFile);
+        }
+    }
+    return todoOk;
 }
 
 /** \brief Guarda los datos de los empleados en el archivo data.csv (modo binario).
