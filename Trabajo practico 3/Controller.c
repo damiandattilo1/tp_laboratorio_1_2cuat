@@ -47,9 +47,27 @@ int controller_loadFromText(char* path , LinkedList* pArrayListEmployee)
  * \return int
  *
  */
-int controller_loadFromBinary(char* path , LinkedList* pArrayListEmployee)
+int controller_loadFromBinary(char* path, LinkedList* pArrayListEmployee)
 {
-    return 1;
+    int todoOk = 0;
+    FILE* pFile = NULL;
+
+    if(path != NULL && pArrayListEmployee != NULL)
+    {
+        pFile=fopen(path,"rb");
+
+        if(pFile != NULL)
+        {
+            if(parser_EmployeeFromBinary(pFile,pArrayListEmployee)==1)
+            {
+                todoOk = 1;
+            }
+        }
+
+        fclose(pFile);
+    }
+
+    return todoOk;
 }
 
 /** \brief Alta de empleados
@@ -364,8 +382,32 @@ int controller_saveAsText(char* path , LinkedList* pArrayListEmployee)
  * \return int
  *
  */
-int controller_saveAsBinary(char* path , LinkedList* pArrayListEmployee)
+int controller_saveAsBinary(char* path, LinkedList* pArrayListEmployee)
 {
-    return 1;
+    int todoOk = 0;
+    FILE* pFile;
+    Employee* auxEmployee;
+
+    if(path != NULL && pArrayListEmployee != NULL)
+    {
+        pFile=fopen(path,"wb");
+
+        if(pFile != NULL)
+        {
+            for(int i=0; i<ll_len(pArrayListEmployee); i++)
+            {
+                auxEmployee=(Employee*)ll_get(pArrayListEmployee,i);
+
+                if(auxEmployee != NULL)
+                {
+                    fwrite(auxEmployee,sizeof(Employee),1,pFile);
+                    todoOk = 1;
+                }
+
+            }
+            fclose(pFile);
+        }
+    }
+    return todoOk;
 }
 

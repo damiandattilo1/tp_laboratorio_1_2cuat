@@ -49,7 +49,15 @@ int main()
                 }
                 break;
             case 2:
-               // controller_loadFromBinary("dataB.bin",listaEmpleados);
+                if(controller_loadFromBinary("dataB.bin",listaEmpleados)==1)
+                {
+                    printf("\nArchivo cargado con exito\n\n");
+                }
+                else
+                {
+                    printf("\nERROR al cargar el archivo\n\n");
+                    exit(EXIT_FAILURE);
+                }
                 break;
             case 3:
                 system("cls");
@@ -92,6 +100,7 @@ int main()
                 if(!controller_saveAsText("data.csv" , listaEmpleados))
                 {
                     printf("\nERROR al guardar los datos\n\n");
+                    exit(EXIT_FAILURE);
                 }
                 else
                 {
@@ -99,7 +108,15 @@ int main()
                 }
                 break;
             case 9:
-                //controller_saveAsBinary("dataB.bin" , listaEmpleados);
+                if(controller_saveAsBinary("dataB.bin" , listaEmpleados)==1)
+                {
+                    printf("\nSe guardaron los datos con exito\n\n");
+                }
+                else
+                {
+                    printf("\nERROR al guardar los datos\n\n");
+                    exit(EXIT_FAILURE);
+                }
                 break;
             case 10:
                 // Salida

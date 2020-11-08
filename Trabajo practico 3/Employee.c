@@ -52,7 +52,7 @@ int employee_setId(Employee* this,int id)
 
     return todoOk;
 }
-//int employee_getId(Employee* this,int* id);
+
 
 int employee_setNombre(Employee* this,char* nombre)
 {
@@ -67,7 +67,6 @@ int employee_setNombre(Employee* this,char* nombre)
 }
 
 
-//int employee_getNombre(Employee* this,char* nombre);
 
 int employee_setHorasTrabajadas(Employee* this,int horasTrabajadas)
 {
@@ -82,7 +81,6 @@ int employee_setHorasTrabajadas(Employee* this,int horasTrabajadas)
 }
 
 
-//int employee_getHorasTrabajadas(Employee* this,int* horasTrabajadas);
 
 int employee_setSueldo(Employee* this,float sueldo)
 {
@@ -95,4 +93,62 @@ int employee_setSueldo(Employee* this,float sueldo)
 
     return todoOk;
 }
-//int employee_getSueldo(Employee* this,float* sueldo);
+
+
+//-------------------------------------------------------------------------------------------
+
+int employee_getId(Employee* this, int* id)
+{
+    int todoOk = 0;
+
+    if(this !=NULL && id !=NULL )
+    {
+        *id=this->id;
+        todoOk = 1;
+    }
+
+
+    return todoOk;
+
+}
+
+
+int employee_getNombre(Employee* this, char* nombre)
+{
+    int todoOk = 0;
+
+    if(this!=NULL && nombre !=NULL)
+    {
+        strcpy(nombre,this->nombre);
+        todoOk = 1;
+    }
+
+    return todoOk;
+}
+
+
+int employee_getHorasTrabajadas(Employee* this, int* horasTrabajadas)
+{
+    int todoOk = 0;
+
+    if(this!=NULL && horasTrabajadas!=NULL)
+    {
+        *horasTrabajadas=this->horasTrabajadas;
+        todoOk = 1;
+    }
+    return todoOk = 1;
+}
+
+
+int employee_getSueldo(Employee* this, float* sueldo)
+{
+    int todoOk = 0;
+
+    if(this!=NULL && sueldo !=NULL)
+    {
+
+        *sueldo=this->sueldo;
+        todoOk = 1;
+    }
+    return todoOk;
+}

@@ -227,3 +227,41 @@
 	"LinkedList.h"
 	"Employee.h"
 
+1604873257 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1604583155 c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\linkedlist.h
+
+1604701391 c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\controller.h
+
+1604701412 c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\employee.h
+
+1604872987 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1604701440 c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\parser.h
+
+1604872458 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604872604 source:c:\users\damia\documents\damian\programacion utn\2do cuatrimestre\prueba para tp 3 de binarios\trabajo practico 3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
