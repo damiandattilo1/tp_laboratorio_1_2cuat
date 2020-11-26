@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1604758928 source:c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1606231407 c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\linkedlist.h
+
+1604701412 c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\employee.h
+
+1604701440 c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\parser.h
+
+1604701478 source:c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1606309381 source:c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"string.h"
+
+1606312419 source:c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1604701391 c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\controller.h
+
+1604758958 source:c:\users\damia\documents\damian\trabajo practico 4\trabajo practico 4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1606349259 source:c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1606231407 c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\linkedlist.h
+
+1606348678 c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\employee.h
+
+1604701440 c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\parser.h
+
+1606349236 source:c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1606309381 source:c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"string.h"
+
+1604758958 source:c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1606349841 source:c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1604701391 c:\users\damia\documents\damian\trabajo practico 4-2\trabajo practico 4\controller.h
+
+1606349259 source:c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1606231407 c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\linkedlist.h
+
+1606348678 c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\employee.h
+
+1604701440 c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\parser.h
+
+1606349236 source:c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1606309381 source:c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"string.h"
+
+1606349841 source:c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1604701391 c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\controller.h
+
+1604758958 source:c:\users\damia\documents\damian\trabajo practico 4 final\trabajo practico 4 final\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
